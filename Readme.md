@@ -2,7 +2,6 @@
 
 react-dragons is a Front-End technical test.
 
-
 ## Installation
 
 
@@ -16,4 +15,11 @@ npm start
 
 ```python
 npm run cypress
+```
+
+## The default user is:
+
+```bash
+email: root@root.com
+password: root
 ```
