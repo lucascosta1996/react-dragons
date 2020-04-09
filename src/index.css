@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&display=swap');
+
+html, body {
+  background-color: rgb(243, 243, 243);
+  margin: 0;
+}
+
+html:empty, body:empty {
+  background-color: brown;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
