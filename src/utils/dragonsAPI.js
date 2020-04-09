@@ -26,8 +26,8 @@ export const createDragon = async ( dragon, callback ) => {
   callback()
 }
 
-export const deleteDragon = ( dragon, callback ) => {
-  axios.delete(`${API_URL}${dragon.id}`)
+export const deleteDragon = async ( dragon, callback ) => {
+  await axios.delete(`${API_URL}${dragon.id}`)
   .then( res => {
     alert( `${dragon.name} deleted succesfully` )
   })
